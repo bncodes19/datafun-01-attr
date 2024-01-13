@@ -17,7 +17,7 @@ net_promotor_score: set = {9.4, 8.2, 3.1, 7.6, 2.9, 4.8, 6.1, 3.9, 10.9, 5.0, 8.
 active_projects_string: str = f"Projects in progress: {count_active_projects}"
 completed_projects_string: str = f"Projects we've shipped: {count_completed_projects}"
 specialties_offered: str = f"Specialties we offer: {specialties}"
-induestries_served: str = f"Industries we serve: {industries}"
+industries_served: str = f"Industries we serve: {industries}"
 
 # Calculate Descriptive Statistics
 lowest_score = min(net_promotor_score)
@@ -44,7 +44,7 @@ byline: str = f"""
 {completed_projects_string}
 {number_of_employees}
 {specialties_offered}
-{induestries_served}
+{industries_served}
 {stats_string}
 """
 
@@ -56,7 +56,7 @@ print(active_projects_string)
 print(completed_projects_string)
 print(number_of_employees)
 print(specialties_offered)
-print(induestries_served)
+print(industries_served)
 print(stats_string)
 
 print(byline)
